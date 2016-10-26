@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.registrationapp.ui.fragments.LoginFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_login_cnt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_user_name_login"
+            android:singleLine="true"
+            android:maxLength="25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_enter_user_name" />
+
+        <EditText
+            android:id="@+id/et_pwd_login"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:maxLength="25"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_enter_pwd" />
+
+        <TextView
+            android:id="@+id/tv_forgot_pwd_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="@string/forgot_pwd"
+            android:textSize="@dimen/text_size_15sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/btn_cnt"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_login_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                android:layout_marginRight="@dimen/dimen_20dp"
+                android:layout_marginBottom="@dimen/dimen_20dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/cancel" />
+            <Button
+                android:id="@+id/btn_login_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dimen_20dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/login" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

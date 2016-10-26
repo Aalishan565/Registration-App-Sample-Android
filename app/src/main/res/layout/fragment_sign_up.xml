@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.registrationapp.ui.fragments.SignUpFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_first_name_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_enter_fisrt_name"
+                android:maxLength="10"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/et_last_name_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_enter_last_name"
+                android:maxLength="10"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/et_contect_no_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_enter_your_mobile_no"
+                android:inputType="phone"
+                android:maxLength="15"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/et_email_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_enter_your_email"
+                android:inputType="textWebEmailAddress"
+                android:maxLength="25"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/et_user_name_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_enter_user_name"
+                android:maxLength="10"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/et_password_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_enter_pwd"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/et_confirm_password_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_confirm_password"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:id="@+id/btn_cnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/btn_cancel_signup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dimen_20dp"
+                    android:layout_marginRight="@dimen/dimen_20dp"
+                    android:layout_marginTop="@dimen/dimen_20dp"
+                    android:layout_weight="5"
+                    android:text="@string/cancel" />
+
+                <Button
+                    android:id="@+id/btn_signup_signup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dimen_20dp"
+                    android:layout_marginTop="@dimen/dimen_20dp"
+                    android:layout_weight="5"
+                    android:text="@string/sign_up" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

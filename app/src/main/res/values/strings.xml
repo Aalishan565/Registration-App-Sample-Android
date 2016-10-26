@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">RegistrationApp</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="enter_login_detail">Enter your Login details</string>
+    <string name="hint_enter_user_name">Enter user name</string>
+    <string name="hint_enter_pwd">Enter password</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="lbl_terms_of_service"><u>Terms and Conditions</u></string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_pwd">Forgot Password ?</string>
+    <string name="sign_up_frag_tittle">Enter your Details</string>
+    <string name="login_frag_tittle">Enter your Identity</string>
+    <string name="hint_enter_fisrt_name">Enter your first name</string>
+    <string name="hint_enter_last_name">Enter your last name</string>
+    <string name="hint_enter_your_mobile_no">Enter your mobile no</string>
+    <string name="hint_enter_your_email">Enter your Email ID</string>
+    <string name="hint_confirm_password">Confirm password</string>
+
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Notification</item>
+        <item>Photos</item>
+        <item>About Us</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_dots</item>
+        <item>@drawable/ic_dots</item>
+        <item>@drawable/ic_dots</item>
+        <item>@drawable/ic_dots</item>
+        <item>@drawable/log_out</item>
+    </array>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- Header  -->
+    <string name="hdr_Home">Home</string>
+    <string name="hdr_notification">Notification</string>
+    <string name="hdr_photos">Photos</string>
+    <string name="hdr_about_us">About Us</string>
+
+</resources>
